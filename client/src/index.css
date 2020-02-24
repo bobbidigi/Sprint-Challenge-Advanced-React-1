@@ -9,7 +9,10 @@ body {
   text-align: center;
   font-family: sans-serif;
 }
-
+a {
+  color: rgb(79, 79, 80);
+  text-decoration: none;
+}
 h5 {
   margin: 0;
 }
@@ -99,7 +102,7 @@ button:hover,
   display: flex;
   justify-content: space-around;
 }
-.dark-mode .card-container {
+.dark-mode .card-container, .dark-mode a {
   color: rgb(170, 167, 167);
 }
 
