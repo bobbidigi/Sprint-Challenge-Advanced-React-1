@@ -5,11 +5,11 @@ export default class PlayerDetails extends Component {
         player: ''
     }
 
-    componentDidMount(){
-        this.setState({
-            player: this.props.history.location.state.player
-        })
-    }
+    // componentDidMount(){
+    //     this.setState({
+    //         player: this.props.history.location.state.player
+    //     })
+    // }
     render() {
         console.log(this.props.history.location.state.player)
         return (

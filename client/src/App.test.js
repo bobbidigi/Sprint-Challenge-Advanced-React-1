@@ -20,9 +20,9 @@ test("Navbar title", () => {
   expect(women).toBeVisible();
 });
 
-// Player renders with name
-test('Player Name', () => {
-  const wrapper = rtl.render(<Player/>)
-  const name = wrapper.getByText(`Name:`)
-  expect(name).toBeVisible()
-})
+// // Player renders with name
+// test('Player Name', () => {
+//   const wrapper = rtl.render(<Player/>)
+//   const name = wrapper.getByText(`Name:`)
+//   expect(name).toBeVisible()
+// })
